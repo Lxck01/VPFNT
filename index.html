@@ -1,0 +1,54 @@
+<html lang="en"><head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./logo.png">
+    
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+
+    <title>VPFNT</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <meta name="description" content="View private Fortnite Trackers.">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="UFFT">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="View private Fortnite Trackers.">
+
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Import the webpage's javascript file -->
+    <script src="./script.js"></script>
+  </head>
+  <body>
+   
+     <div class="flex items-center justify-center h-screen">
+        
+	      <div class="container md:container md:mx-auto bg-purple-500 rounded-lg border shadow-lg p-10 ">
+		      <h1 class="text-white font-bold hover:underline text-4xl	">
+            <a href="">View Private Fortnite Trackers</a>
+          </h1>
+         <br>
+           
+          
+          <div class="w-full max-w-sm">
+            <div class="flex items-center border-b border-teal-500 py-2">
+              <input id="username" class="appearance-none bg-transparent border-none w-full text-white placeholder-gray-300 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter the EPIC name...">
+              <button onclick="Find()" id="findbtn" class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+                Search Profile
+              </button>
+            </div>
+            <script>AddFindListener()</script>
+
+        </div>
+          
+	      </div>
+	
+  </div>
+    
+</body></html>
