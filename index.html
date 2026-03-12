@@ -1,59 +1,60 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VPFNT - View Private Fortnite Trackers.</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VPFNT - View Private Fortnite Trackers</title>
 
-    <!-- Meta tags for SEO and social sharing -->
-    <meta name="description" content="View Private Fortnite Trackers." />
-    <link rel="canonical" href="https://lxck01.github.io/VPFNT/" />
-    <meta name="robots" content="index,follow" />
-    <meta property="og:title" content="VPFNT" />
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="View Private Fortnite Trackers." />
+  <!-- SEO -->
+  <meta name="description" content="View Private Fortnite Trackers." />
+  <link rel="canonical" href="https://lxck01.github.io/VPFNT/" />
+  <meta name="robots" content="index,follow" />
 
-    <!-- Tailwind CSS -->
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+  <!-- Open Graph -->
+  <meta property="og:title" content="VPFNT" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="View Private Fortnite Trackers." />
 
-    <!-- Import the webpage's javascript file -->
-    <script src="https://lxck01.github.io/VPFNT/script.js"></script>
-  </head>
-  <body>
-    <div class="flex items-center justify-center h-screen">
-      <div
-        class="container md:container md:mx-auto bg-purple-500 rounded-lg border shadow-lg p-10"
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Script -->
+  <script src="https://lxck01.github.io/VPFNT/script.js" defer></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 to-indigo-700 font-sans">
+
+  <main class="bg-purple-500/90 backdrop-blur rounded-xl shadow-2xl p-10 w-[420px] text-center">
+
+    <h1 class="text-white text-3xl font-bold mb-6 hover:underline">
+      <a href="https://lxck01.github.io/VPFNT/">View Private Fortnite Trackers</a>
+    </h1>
+
+    <label for="username" class="sr-only">Epic Games Username</label>
+
+    <div class="flex gap-2 border-b border-teal-400 pb-2">
+
+      <input
+        id="username"
+        type="text"
+        maxlength="16"
+        placeholder="Enter Epic username..."
+        class="flex-1 bg-transparent text-white placeholder-gray-300 outline-none px-2"
+      />
+
+      <button
+        id="findbtn"
+        onclick="Find()"
+        class="bg-teal-500 hover:bg-teal-600 transition px-3 py-1 rounded text-white text-sm font-semibold"
       >
-        <h1 class="text-white font-bold hover:underline text-4xl">
-          <a href="https://lxck01.github.io/VPFNT/"
-            >View Private Fortnite Trackers</a
-          >
-        </h1>
-        <br />
+        Check
+      </button>
 
-        <div class="w-full max-w-sm">
-          <div class="flex items-center border-b border-teal-500 py-2">
-            <input
-              id="username"
-              class="appearance-none bg-transparent border-none w-full text-white placeholder-gray-300 mr-3 py-1 px-2 leading-tight focus:outline-none"
-              type="text"
-              placeholder="Enter the EPIC name..."
-              maxlength="16"
-            />
-            <button
-              onclick="Find()"
-              id="findbtn"
-              class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-              type="button"
-            >
-              Check Profile
-            </button>
-          </div>
+    </div>
 
-          <!-- BEGIN AADS AD UNIT 2429788 -->
+  </main>
+
+            <!-- BEGIN AADS AD UNIT 2429788 -->
 <div style="position: absolute; z-index: 99999">
       <input autocomplete="off" type="checkbox" id="aadsstickymmhm868o" hidden />
       <div style="padding-top: 0; padding-bottom: auto;">
@@ -83,13 +84,11 @@
     </div></div>
 <!-- END AADS AD UNIT 2429788 -->
 
-          <script>
-            AddFindListener();
-          </script>
-        </div>
-      </div>
-    </div>
-  </body>
+  <script>
+    AddFindListener();
+  </script>
+
+</body>
 </html>
 
 <!--
@@ -102,3 +101,4 @@ YES IM GAY!!!!!!!
 /̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿   💥
 
 -->
+
